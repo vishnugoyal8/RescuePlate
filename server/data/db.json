@@ -1,0 +1,1255 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_001",
+      "email": "admin@rescueplate.org",
+      "passwordHash": "$2b$10$SG7ANyD0PLaE8sNHvyjC/.NeWPGIb5cLCj.XwEcZBXq8eiEwkDu5m",
+      "fullName": "Kavita Singhal",
+      "orgName": "RescuePlate Trust & Verification Authority",
+      "role": "admin",
+      "verificationStatus": "Verified",
+      "simulatedRegistrationId": "DEMO-ADMIN-VERIFIER-001",
+      "phone": "+91 11 2345 6789",
+      "locality": "Central Delhi",
+      "createdAt": "2026-06-01T08:00:00.000Z"
+    },
+    {
+      "id": "usr_donor_001",
+      "email": "donor@grandpearl.com",
+      "passwordHash": "$2b$10$uqWSRA/ZxcBZ.1Okz3cCXOgv7gPkuGY7YhqfgP4PVGu68AhE8fmQu",
+      "fullName": "Chef Vikram Sethi",
+      "orgName": "Grand Pearl Banquet & Hotel",
+      "role": "donor",
+      "verificationStatus": "Verified",
+      "simulatedRegistrationId": "DEMO-FSSAI-REG-4412B",
+      "phone": "+91 98112 88990",
+      "locality": "Indirapuram, Ghaziabad",
+      "createdAt": "2026-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "usr_donor_002",
+      "email": "donor@royalspoon.com",
+      "passwordHash": "$2b$10$uqWSRA/ZxcBZ.1Okz3cCXOgv7gPkuGY7YhqfgP4PVGu68AhE8fmQu",
+      "fullName": "Rajesh Sharma",
+      "orgName": "Royal Spoon Banquets",
+      "role": "donor",
+      "verificationStatus": "Verified",
+      "simulatedRegistrationId": "DEMO-FSSAI-REG-9821A",
+      "phone": "+91 98101 23456",
+      "locality": "Sector 18, Noida",
+      "createdAt": "2026-08-15T10:00:00.000Z"
+    },
+    {
+      "id": "usr_donor_003",
+      "email": "pending@saffron.com",
+      "passwordHash": "$2b$10$uqWSRA/ZxcBZ.1Okz3cCXOgv7gPkuGY7YhqfgP4PVGu68AhE8fmQu",
+      "fullName": "Virender Chawla",
+      "orgName": "Saffron Heritage Banquets",
+      "role": "donor",
+      "verificationStatus": "Verified",
+      "simulatedRegistrationId": "DEMO-FSSAI-REG-7721D",
+      "phone": "+91 98100 55443",
+      "locality": "Saket, South Delhi",
+      "createdAt": "2026-10-01T11:00:00.000Z"
+    },
+    {
+      "id": "usr_ngo_001",
+      "email": "ngo@asha.org",
+      "passwordHash": "$2b$10$f.T/IbpxXF9CvG8z4FgQaO69RwoXPDm1LLxdzRLNXTrXUDZSO2YUu",
+      "fullName": "Dr. Sunita Rao",
+      "orgName": "Asha Ek Kadam",
+      "role": "ngo",
+      "verificationStatus": "Verified",
+      "simulatedRegistrationId": "DEMO-NGO-DARPAN-4401X",
+      "phone": "+91 98200 11223",
+      "locality": "Mayur Vihar, East Delhi",
+      "capacity": 60,
+      "createdAt": "2026-08-20T09:00:00.000Z"
+    },
+    {
+      "id": "usr_ngo_002",
+      "email": "ngo@pratham.org",
+      "passwordHash": "$2b$10$f.T/IbpxXF9CvG8z4FgQaO69RwoXPDm1LLxdzRLNXTrXUDZSO2YUu",
+      "fullName": "Amit Trivedi",
+      "orgName": "Pratham Food Relief",
+      "role": "ngo",
+      "verificationStatus": "Verified",
+      "simulatedRegistrationId": "DEMO-NGO-DARPAN-9912Y",
+      "phone": "+91 98199 44332",
+      "locality": "Laxmi Nagar, Delhi",
+      "capacity": 100,
+      "createdAt": "2026-08-25T14:00:00.000Z"
+    },
+    {
+      "id": "usr_ngo_003",
+      "email": "pending@hopeshelter.org",
+      "passwordHash": "$2b$10$f.T/IbpxXF9CvG8z4FgQaO69RwoXPDm1LLxdzRLNXTrXUDZSO2YUu",
+      "fullName": "Sister Mary",
+      "orgName": "Hope Shelter Home",
+      "role": "ngo",
+      "verificationStatus": "Pending Review",
+      "simulatedRegistrationId": "DEMO-NGO-DARPAN-1102Z",
+      "phone": "+91 98111 22334",
+      "locality": "Rohini, North Delhi",
+      "capacity": 25,
+      "createdAt": "2026-10-05T08:30:00.000Z"
+    },
+    {
+      "id": "usr_1792830526839_3mjyu",
+      "createdAt": "2026-10-24T08:28:46.839Z",
+      "fullName": "Chef Rajan Oberoi",
+      "orgName": "Oberoi Palace Banquets",
+      "email": "chef.raj_1792830526773@testdonor.com",
+      "passwordHash": "$2b$10$./j1Qvg5eV9Tqflqm/wdXeM2e0QE9mbpSU4rYpek8z.lS/WQNY3R.",
+      "role": "donor",
+      "verificationStatus": "Pending Review",
+      "simulatedRegistrationId": "DEMO-REG-526839",
+      "phone": "+91 98111 55667",
+      "locality": "Dwarka, New Delhi",
+      "capacity": 0
+    },
+    {
+      "id": "usr_1792830526898_exi74",
+      "createdAt": "2026-10-24T08:28:46.898Z",
+      "fullName": "Anuradha Sen",
+      "orgName": "Care India Feeding Project",
+      "email": "relief_1792830526847@testngo.org",
+      "passwordHash": "$2b$10$koRJa9BbTHln8hHyhercWOcBhJAuX293gD0lz7eiechBslX7JUuKC",
+      "role": "ngo",
+      "verificationStatus": "Pending Review",
+      "simulatedRegistrationId": "DEMO-REG-526898",
+      "phone": "+91 98222 33445",
+      "locality": "Okhla, New Delhi",
+      "capacity": 85
+    }
+  ],
+  "password_resets": [],
+  "audit_logs": [
+    {
+      "id": "aud_1792826698868_3suw",
+      "timestamp": "2026-10-24T07:24:58.868Z",
+      "event": "USER_REGISTERED",
+      "actor": "chef.raj_1792826698801@testdonor.com",
+      "details": {
+        "role": "donor",
+        "orgName": "Oberoi Palace Banquets"
+      }
+    },
+    {
+      "id": "aud_1792826698924_ih81",
+      "timestamp": "2026-10-24T07:24:58.924Z",
+      "event": "USER_REGISTERED",
+      "actor": "relief_1792826698872@testngo.org",
+      "details": {
+        "role": "ngo",
+        "orgName": "Care India Feeding Project"
+      }
+    },
+    {
+      "id": "aud_1792826698981_5drn",
+      "timestamp": "2026-10-24T07:24:58.981Z",
+      "event": "FAILED_LOGIN_ATTEMPT",
+      "actor": "chef.raj_1792826698801@testdonor.com",
+      "details": {
+        "reason": "Incorrect password"
+      }
+    },
+    {
+      "id": "aud_1792826699033_ffcn",
+      "timestamp": "2026-10-24T07:24:59.033Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792826699092_ohls",
+      "timestamp": "2026-10-24T07:24:59.092Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "ngo@asha.org",
+      "details": {
+        "role": "ngo"
+      }
+    },
+    {
+      "id": "aud_1792826699148_mvug",
+      "timestamp": "2026-10-24T07:24:59.148Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "pending@saffron.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792826792776_oqm0",
+      "timestamp": "2026-10-24T07:26:32.776Z",
+      "event": "USER_REGISTERED",
+      "actor": "chef.raj_1792826792713@testdonor.com",
+      "details": {
+        "role": "donor",
+        "orgName": "Oberoi Palace Banquets"
+      }
+    },
+    {
+      "id": "aud_1792826792831_cakp",
+      "timestamp": "2026-10-24T07:26:32.831Z",
+      "event": "USER_REGISTERED",
+      "actor": "relief_1792826792780@testngo.org",
+      "details": {
+        "role": "ngo",
+        "orgName": "Care India Feeding Project"
+      }
+    },
+    {
+      "id": "aud_1792826792887_0cef",
+      "timestamp": "2026-10-24T07:26:32.887Z",
+      "event": "FAILED_LOGIN_ATTEMPT",
+      "actor": "chef.raj_1792826792713@testdonor.com",
+      "details": {
+        "reason": "Incorrect password"
+      }
+    },
+    {
+      "id": "aud_1792826792939_eia1",
+      "timestamp": "2026-10-24T07:26:32.939Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792826792999_hjkt",
+      "timestamp": "2026-10-24T07:26:32.999Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "ngo@asha.org",
+      "details": {
+        "role": "ngo"
+      }
+    },
+    {
+      "id": "aud_1792826793054_tec3",
+      "timestamp": "2026-10-24T07:26:33.054Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "pending@saffron.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792827059157_amk6",
+      "timestamp": "2026-10-24T07:30:59.157Z",
+      "event": "USER_REGISTERED",
+      "actor": "chef.raj_1792827059090@testdonor.com",
+      "details": {
+        "role": "donor",
+        "orgName": "Oberoi Palace Banquets"
+      }
+    },
+    {
+      "id": "aud_1792827059213_d2v9",
+      "timestamp": "2026-10-24T07:30:59.213Z",
+      "event": "USER_REGISTERED",
+      "actor": "relief_1792827059161@testngo.org",
+      "details": {
+        "role": "ngo",
+        "orgName": "Care India Feeding Project"
+      }
+    },
+    {
+      "id": "aud_1792827059272_xth8",
+      "timestamp": "2026-10-24T07:30:59.272Z",
+      "event": "FAILED_LOGIN_ATTEMPT",
+      "actor": "chef.raj_1792827059090@testdonor.com",
+      "details": {
+        "reason": "Incorrect password"
+      }
+    },
+    {
+      "id": "aud_1792827059325_cmxt",
+      "timestamp": "2026-10-24T07:30:59.325Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792827059385_i3iy",
+      "timestamp": "2026-10-24T07:30:59.385Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "ngo@asha.org",
+      "details": {
+        "role": "ngo"
+      }
+    },
+    {
+      "id": "aud_1792827059441_owtf",
+      "timestamp": "2026-10-24T07:30:59.441Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "pending@saffron.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792828139170_51id",
+      "timestamp": "2026-10-24T07:48:59.170Z",
+      "event": "USER_REGISTERED",
+      "actor": "chef.raj_1792828139099@testdonor.com",
+      "details": {
+        "role": "donor",
+        "orgName": "Oberoi Palace Banquets"
+      }
+    },
+    {
+      "id": "aud_1792828139227_xxs1",
+      "timestamp": "2026-10-24T07:48:59.227Z",
+      "event": "USER_REGISTERED",
+      "actor": "relief_1792828139175@testngo.org",
+      "details": {
+        "role": "ngo",
+        "orgName": "Care India Feeding Project"
+      }
+    },
+    {
+      "id": "aud_1792828139284_b1rj",
+      "timestamp": "2026-10-24T07:48:59.284Z",
+      "event": "FAILED_LOGIN_ATTEMPT",
+      "actor": "chef.raj_1792828139099@testdonor.com",
+      "details": {
+        "reason": "Incorrect password"
+      }
+    },
+    {
+      "id": "aud_1792828139338_i6pt",
+      "timestamp": "2026-10-24T07:48:59.338Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792828139399_721a",
+      "timestamp": "2026-10-24T07:48:59.399Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "ngo@asha.org",
+      "details": {
+        "role": "ngo"
+      }
+    },
+    {
+      "id": "aud_1792828139456_d6gz",
+      "timestamp": "2026-10-24T07:48:59.456Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "pending@saffron.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792828477786_exm2",
+      "timestamp": "2026-10-24T07:54:37.786Z",
+      "event": "USER_REGISTERED",
+      "actor": "chef.raj_1792828477720@testdonor.com",
+      "details": {
+        "role": "donor",
+        "orgName": "Oberoi Palace Banquets"
+      }
+    },
+    {
+      "id": "aud_1792828477845_6eo8",
+      "timestamp": "2026-10-24T07:54:37.845Z",
+      "event": "USER_REGISTERED",
+      "actor": "relief_1792828477790@testngo.org",
+      "details": {
+        "role": "ngo",
+        "orgName": "Care India Feeding Project"
+      }
+    },
+    {
+      "id": "aud_1792828477902_j30d",
+      "timestamp": "2026-10-24T07:54:37.902Z",
+      "event": "FAILED_LOGIN_ATTEMPT",
+      "actor": "chef.raj_1792828477720@testdonor.com",
+      "details": {
+        "reason": "Incorrect password"
+      }
+    },
+    {
+      "id": "aud_1792828477956_gh9z",
+      "timestamp": "2026-10-24T07:54:37.956Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792828478016_g4e7",
+      "timestamp": "2026-10-24T07:54:38.016Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "ngo@asha.org",
+      "details": {
+        "role": "ngo"
+      }
+    },
+    {
+      "id": "aud_1792828478072_cc4c",
+      "timestamp": "2026-10-24T07:54:38.072Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "pending@saffron.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792829011412_o4wb",
+      "timestamp": "2026-10-24T08:03:31.412Z",
+      "event": "USER_REGISTERED",
+      "actor": "chef.raj_1792829011347@testdonor.com",
+      "details": {
+        "role": "donor",
+        "orgName": "Oberoi Palace Banquets"
+      }
+    },
+    {
+      "id": "aud_1792829011471_lbzo",
+      "timestamp": "2026-10-24T08:03:31.471Z",
+      "event": "USER_REGISTERED",
+      "actor": "relief_1792829011416@testngo.org",
+      "details": {
+        "role": "ngo",
+        "orgName": "Care India Feeding Project"
+      }
+    },
+    {
+      "id": "aud_1792829011526_wuie",
+      "timestamp": "2026-10-24T08:03:31.526Z",
+      "event": "FAILED_LOGIN_ATTEMPT",
+      "actor": "chef.raj_1792829011347@testdonor.com",
+      "details": {
+        "reason": "Incorrect password"
+      }
+    },
+    {
+      "id": "aud_1792829011579_d89e",
+      "timestamp": "2026-10-24T08:03:31.579Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792829011639_p07v",
+      "timestamp": "2026-10-24T08:03:31.639Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "ngo@asha.org",
+      "details": {
+        "role": "ngo"
+      }
+    },
+    {
+      "id": "aud_1792829011695_0pwz",
+      "timestamp": "2026-10-24T08:03:31.695Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "pending@saffron.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792829011700_22ud",
+      "timestamp": "2026-10-24T08:03:31.700Z",
+      "event": "FORBIDDEN_ROLE_ELEVATION_ATTEMPT",
+      "actor": "chef.raj_1792829011347@testdonor.com",
+      "details": {
+        "attemptedRole": "admin",
+        "attemptedStatus": "Verified"
+      }
+    },
+    {
+      "id": "aud_1792829075264_w4y2",
+      "timestamp": "2026-10-24T08:04:35.264Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792829075325_8wp0",
+      "timestamp": "2026-10-24T08:04:35.325Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "ngo@asha.org",
+      "details": {
+        "role": "ngo"
+      }
+    },
+    {
+      "id": "aud_1792829101297_0l2i",
+      "timestamp": "2026-10-24T08:05:01.297Z",
+      "event": "USER_REGISTERED",
+      "actor": "chef.raj_1792829101233@testdonor.com",
+      "details": {
+        "role": "donor",
+        "orgName": "Oberoi Palace Banquets"
+      }
+    },
+    {
+      "id": "aud_1792829101352_a9zw",
+      "timestamp": "2026-10-24T08:05:01.352Z",
+      "event": "USER_REGISTERED",
+      "actor": "relief_1792829101301@testngo.org",
+      "details": {
+        "role": "ngo",
+        "orgName": "Care India Feeding Project"
+      }
+    },
+    {
+      "id": "aud_1792829101410_o8vc",
+      "timestamp": "2026-10-24T08:05:01.410Z",
+      "event": "FAILED_LOGIN_ATTEMPT",
+      "actor": "chef.raj_1792829101233@testdonor.com",
+      "details": {
+        "reason": "Incorrect password"
+      }
+    },
+    {
+      "id": "aud_1792829101462_1dkm",
+      "timestamp": "2026-10-24T08:05:01.462Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792829101521_eafw",
+      "timestamp": "2026-10-24T08:05:01.521Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "ngo@asha.org",
+      "details": {
+        "role": "ngo"
+      }
+    },
+    {
+      "id": "aud_1792829101578_q3nn",
+      "timestamp": "2026-10-24T08:05:01.578Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "pending@saffron.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792829101583_e10p",
+      "timestamp": "2026-10-24T08:05:01.583Z",
+      "event": "FORBIDDEN_ROLE_ELEVATION_ATTEMPT",
+      "actor": "chef.raj_1792829101233@testdonor.com",
+      "details": {
+        "attemptedRole": "admin",
+        "attemptedStatus": "Verified"
+      }
+    },
+    {
+      "id": "aud_1792829882020_bv3x",
+      "timestamp": "2026-10-24T08:18:02.020Z",
+      "event": "USER_REGISTERED",
+      "actor": "chef.raj_1792829881953@testdonor.com",
+      "details": {
+        "role": "donor",
+        "orgName": "Oberoi Palace Banquets"
+      }
+    },
+    {
+      "id": "aud_1792829882079_60qz",
+      "timestamp": "2026-10-24T08:18:02.079Z",
+      "event": "USER_REGISTERED",
+      "actor": "relief_1792829882025@testngo.org",
+      "details": {
+        "role": "ngo",
+        "orgName": "Care India Feeding Project"
+      }
+    },
+    {
+      "id": "aud_1792829882136_v8tu",
+      "timestamp": "2026-10-24T08:18:02.136Z",
+      "event": "FAILED_LOGIN_ATTEMPT",
+      "actor": "chef.raj_1792829881953@testdonor.com",
+      "details": {
+        "reason": "Incorrect password"
+      }
+    },
+    {
+      "id": "aud_1792829882190_vnc7",
+      "timestamp": "2026-10-24T08:18:02.190Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792829882250_pjuv",
+      "timestamp": "2026-10-24T08:18:02.250Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "ngo@asha.org",
+      "details": {
+        "role": "ngo"
+      }
+    },
+    {
+      "id": "aud_1792829882306_n9w2",
+      "timestamp": "2026-10-24T08:18:02.306Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "pending@saffron.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792829882312_fg5i",
+      "timestamp": "2026-10-24T08:18:02.312Z",
+      "event": "FORBIDDEN_ROLE_ELEVATION_ATTEMPT",
+      "actor": "chef.raj_1792829881953@testdonor.com",
+      "details": {
+        "attemptedRole": "admin",
+        "attemptedStatus": "Verified"
+      }
+    },
+    {
+      "id": "aud_1792829882370_gnra",
+      "timestamp": "2026-10-24T08:18:02.370Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792829882428_4iq8",
+      "timestamp": "2026-10-24T08:18:02.428Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "admin@rescueplate.org",
+      "details": {
+        "role": "admin"
+      }
+    },
+    {
+      "id": "aud_1792830009668_wbe1",
+      "timestamp": "2026-10-24T08:20:09.668Z",
+      "event": "USER_REGISTERED",
+      "actor": "chef.raj_1792830009602@testdonor.com",
+      "details": {
+        "role": "donor",
+        "orgName": "Oberoi Palace Banquets"
+      }
+    },
+    {
+      "id": "aud_1792830009728_2j3d",
+      "timestamp": "2026-10-24T08:20:09.728Z",
+      "event": "USER_REGISTERED",
+      "actor": "relief_1792830009673@testngo.org",
+      "details": {
+        "role": "ngo",
+        "orgName": "Care India Feeding Project"
+      }
+    },
+    {
+      "id": "aud_1792830009785_tftn",
+      "timestamp": "2026-10-24T08:20:09.785Z",
+      "event": "FAILED_LOGIN_ATTEMPT",
+      "actor": "chef.raj_1792830009602@testdonor.com",
+      "details": {
+        "reason": "Incorrect password"
+      }
+    },
+    {
+      "id": "aud_1792830009839_exth",
+      "timestamp": "2026-10-24T08:20:09.839Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830009899_bs1c",
+      "timestamp": "2026-10-24T08:20:09.899Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "ngo@asha.org",
+      "details": {
+        "role": "ngo"
+      }
+    },
+    {
+      "id": "aud_1792830009955_sd4h",
+      "timestamp": "2026-10-24T08:20:09.955Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "pending@saffron.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830009961_b0tf",
+      "timestamp": "2026-10-24T08:20:09.961Z",
+      "event": "FORBIDDEN_ROLE_ELEVATION_ATTEMPT",
+      "actor": "chef.raj_1792830009602@testdonor.com",
+      "details": {
+        "attemptedRole": "admin",
+        "attemptedStatus": "Verified"
+      }
+    },
+    {
+      "id": "aud_1792830010017_ang0",
+      "timestamp": "2026-10-24T08:20:10.017Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830010074_ci86",
+      "timestamp": "2026-10-24T08:20:10.074Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "admin@rescueplate.org",
+      "details": {
+        "role": "admin"
+      }
+    },
+    {
+      "id": "aud_1792830051157_sqcd",
+      "timestamp": "2026-10-24T08:20:51.157Z",
+      "event": "USER_REGISTERED",
+      "actor": "chef.raj_1792830051089@testdonor.com",
+      "details": {
+        "role": "donor",
+        "orgName": "Oberoi Palace Banquets"
+      }
+    },
+    {
+      "id": "aud_1792830051213_qbk8",
+      "timestamp": "2026-10-24T08:20:51.213Z",
+      "event": "USER_REGISTERED",
+      "actor": "relief_1792830051161@testngo.org",
+      "details": {
+        "role": "ngo",
+        "orgName": "Care India Feeding Project"
+      }
+    },
+    {
+      "id": "aud_1792830051269_8i1n",
+      "timestamp": "2026-10-24T08:20:51.269Z",
+      "event": "FAILED_LOGIN_ATTEMPT",
+      "actor": "chef.raj_1792830051089@testdonor.com",
+      "details": {
+        "reason": "Incorrect password"
+      }
+    },
+    {
+      "id": "aud_1792830051323_31p0",
+      "timestamp": "2026-10-24T08:20:51.323Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830051381_uvfd",
+      "timestamp": "2026-10-24T08:20:51.381Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "ngo@asha.org",
+      "details": {
+        "role": "ngo"
+      }
+    },
+    {
+      "id": "aud_1792830051437_0b22",
+      "timestamp": "2026-10-24T08:20:51.437Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "pending@saffron.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830051442_5y8w",
+      "timestamp": "2026-10-24T08:20:51.442Z",
+      "event": "FORBIDDEN_ROLE_ELEVATION_ATTEMPT",
+      "actor": "chef.raj_1792830051089@testdonor.com",
+      "details": {
+        "attemptedRole": "admin",
+        "attemptedStatus": "Verified"
+      }
+    },
+    {
+      "id": "aud_1792830051498_7v7l",
+      "timestamp": "2026-10-24T08:20:51.498Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830051557_pjcr",
+      "timestamp": "2026-10-24T08:20:51.557Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "admin@rescueplate.org",
+      "details": {
+        "role": "admin"
+      }
+    },
+    {
+      "id": "aud_1792830051561_bk5i",
+      "timestamp": "2026-10-24T08:20:51.561Z",
+      "event": "KYC_STATUS_UPDATED",
+      "actor": "admin@rescueplate.org",
+      "details": {
+        "orgId": "ORG-DON-004",
+        "orgName": "Saffron Heritage Banquets",
+        "previousStatus": "Pending Review",
+        "newStatus": "Verified",
+        "verifierNotes": "Audited trade license and health safety checklist by Chief Verifier"
+      }
+    },
+    {
+      "id": "aud_1792830070898_isiw",
+      "timestamp": "2026-10-24T08:21:10.898Z",
+      "event": "USER_REGISTERED",
+      "actor": "chef.raj_1792830070833@testdonor.com",
+      "details": {
+        "role": "donor",
+        "orgName": "Oberoi Palace Banquets"
+      }
+    },
+    {
+      "id": "aud_1792830070953_gtkm",
+      "timestamp": "2026-10-24T08:21:10.953Z",
+      "event": "USER_REGISTERED",
+      "actor": "relief_1792830070902@testngo.org",
+      "details": {
+        "role": "ngo",
+        "orgName": "Care India Feeding Project"
+      }
+    },
+    {
+      "id": "aud_1792830071009_jyvt",
+      "timestamp": "2026-10-24T08:21:11.009Z",
+      "event": "FAILED_LOGIN_ATTEMPT",
+      "actor": "chef.raj_1792830070833@testdonor.com",
+      "details": {
+        "reason": "Incorrect password"
+      }
+    },
+    {
+      "id": "aud_1792830071062_b00a",
+      "timestamp": "2026-10-24T08:21:11.062Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830071122_he3z",
+      "timestamp": "2026-10-24T08:21:11.122Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "ngo@asha.org",
+      "details": {
+        "role": "ngo"
+      }
+    },
+    {
+      "id": "aud_1792830071178_dkmw",
+      "timestamp": "2026-10-24T08:21:11.178Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "pending@saffron.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830071184_2b13",
+      "timestamp": "2026-10-24T08:21:11.184Z",
+      "event": "FORBIDDEN_ROLE_ELEVATION_ATTEMPT",
+      "actor": "chef.raj_1792830070833@testdonor.com",
+      "details": {
+        "attemptedRole": "admin",
+        "attemptedStatus": "Verified"
+      }
+    },
+    {
+      "id": "aud_1792830071240_6al6",
+      "timestamp": "2026-10-24T08:21:11.240Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830071298_vqzj",
+      "timestamp": "2026-10-24T08:21:11.298Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "admin@rescueplate.org",
+      "details": {
+        "role": "admin"
+      }
+    },
+    {
+      "id": "aud_1792830071302_nwqc",
+      "timestamp": "2026-10-24T08:21:11.302Z",
+      "event": "KYC_STATUS_UPDATED",
+      "actor": "admin@rescueplate.org",
+      "details": {
+        "orgId": "ORG-DON-004",
+        "orgName": "Saffron Heritage Banquets",
+        "previousStatus": "Verified",
+        "newStatus": "Verified",
+        "verifierNotes": "Audited trade license and health safety checklist by Chief Verifier"
+      }
+    },
+    {
+      "id": "aud_1792830132265_wgn3",
+      "timestamp": "2026-10-24T08:22:12.265Z",
+      "event": "USER_REGISTERED",
+      "actor": "chef.raj_1792830132197@testdonor.com",
+      "details": {
+        "role": "donor",
+        "orgName": "Oberoi Palace Banquets"
+      }
+    },
+    {
+      "id": "aud_1792830132319_94rh",
+      "timestamp": "2026-10-24T08:22:12.319Z",
+      "event": "USER_REGISTERED",
+      "actor": "relief_1792830132269@testngo.org",
+      "details": {
+        "role": "ngo",
+        "orgName": "Care India Feeding Project"
+      }
+    },
+    {
+      "id": "aud_1792830132375_lmst",
+      "timestamp": "2026-10-24T08:22:12.376Z",
+      "event": "FAILED_LOGIN_ATTEMPT",
+      "actor": "chef.raj_1792830132197@testdonor.com",
+      "details": {
+        "reason": "Incorrect password"
+      }
+    },
+    {
+      "id": "aud_1792830132428_qsvv",
+      "timestamp": "2026-10-24T08:22:12.428Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830132488_fow4",
+      "timestamp": "2026-10-24T08:22:12.488Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "ngo@asha.org",
+      "details": {
+        "role": "ngo"
+      }
+    },
+    {
+      "id": "aud_1792830132545_tef6",
+      "timestamp": "2026-10-24T08:22:12.545Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "pending@saffron.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830132550_uifp",
+      "timestamp": "2026-10-24T08:22:12.550Z",
+      "event": "FORBIDDEN_ROLE_ELEVATION_ATTEMPT",
+      "actor": "chef.raj_1792830132197@testdonor.com",
+      "details": {
+        "attemptedRole": "admin",
+        "attemptedStatus": "Verified"
+      }
+    },
+    {
+      "id": "aud_1792830132607_2etp",
+      "timestamp": "2026-10-24T08:22:12.607Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830132665_lt4i",
+      "timestamp": "2026-10-24T08:22:12.665Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "admin@rescueplate.org",
+      "details": {
+        "role": "admin"
+      }
+    },
+    {
+      "id": "aud_1792830132669_9psh",
+      "timestamp": "2026-10-24T08:22:12.669Z",
+      "event": "KYC_STATUS_UPDATED",
+      "actor": "admin@rescueplate.org",
+      "details": {
+        "orgId": "ORG-DON-004",
+        "orgName": "Saffron Heritage Banquets",
+        "previousStatus": "Pending Review",
+        "newStatus": "Verified",
+        "verifierNotes": "Audited trade license and health safety checklist by Chief Verifier"
+      }
+    },
+    {
+      "id": "aud_1792830526839_cqdn",
+      "timestamp": "2026-10-24T08:28:46.839Z",
+      "event": "USER_REGISTERED",
+      "actor": "chef.raj_1792830526773@testdonor.com",
+      "details": {
+        "role": "donor",
+        "orgName": "Oberoi Palace Banquets"
+      }
+    },
+    {
+      "id": "aud_1792830526899_6ned",
+      "timestamp": "2026-10-24T08:28:46.899Z",
+      "event": "USER_REGISTERED",
+      "actor": "relief_1792830526847@testngo.org",
+      "details": {
+        "role": "ngo",
+        "orgName": "Care India Feeding Project"
+      }
+    },
+    {
+      "id": "aud_1792830526956_q354",
+      "timestamp": "2026-10-24T08:28:46.956Z",
+      "event": "FAILED_LOGIN_ATTEMPT",
+      "actor": "chef.raj_1792830526773@testdonor.com",
+      "details": {
+        "reason": "Incorrect password"
+      }
+    },
+    {
+      "id": "aud_1792830527010_l9b8",
+      "timestamp": "2026-10-24T08:28:47.010Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830527070_5m3p",
+      "timestamp": "2026-10-24T08:28:47.070Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "ngo@asha.org",
+      "details": {
+        "role": "ngo"
+      }
+    },
+    {
+      "id": "aud_1792830527125_erkq",
+      "timestamp": "2026-10-24T08:28:47.125Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "pending@saffron.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830527131_9nlj",
+      "timestamp": "2026-10-24T08:28:47.131Z",
+      "event": "FORBIDDEN_ROLE_ELEVATION_ATTEMPT",
+      "actor": "chef.raj_1792830526773@testdonor.com",
+      "details": {
+        "attemptedRole": "admin",
+        "attemptedStatus": "Verified"
+      }
+    },
+    {
+      "id": "aud_1792830527188_b7f3",
+      "timestamp": "2026-10-24T08:28:47.188Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "donor@grandpearl.com",
+      "details": {
+        "role": "donor"
+      }
+    },
+    {
+      "id": "aud_1792830527247_r9q5",
+      "timestamp": "2026-10-24T08:28:47.247Z",
+      "event": "USER_LOGGED_IN",
+      "actor": "admin@rescueplate.org",
+      "details": {
+        "role": "admin"
+      }
+    },
+    {
+      "id": "aud_1792830527250_9boh",
+      "timestamp": "2026-10-24T08:28:47.250Z",
+      "event": "KYC_STATUS_UPDATED",
+      "actor": "admin@rescueplate.org",
+      "details": {
+        "orgId": "ORG-DON-004",
+        "orgName": "Saffron Heritage Banquets",
+        "previousStatus": "Pending Review",
+        "newStatus": "Verified",
+        "verifierNotes": "Audited trade license and health safety checklist by Chief Verifier"
+      }
+    }
+  ],
+  "verification_records": [
+    {
+      "id": "ORG-DON-001",
+      "name": "Royal Spoon Banquets",
+      "type": "Commercial Kitchen & Catering",
+      "category": "Donor",
+      "verificationStatus": "Verified",
+      "simulatedRegistrationId": "DEMO-FSSAI-REG-9821A",
+      "verifiedAt": "2026-08-15T10:00:00.000Z",
+      "hygieneRating": "4.8 / 5.0 (Simulated)",
+      "contactPerson": "Rajesh Sharma (Catering Lead)",
+      "phone": "+91 98101 23456",
+      "locality": "Sector 18, Noida",
+      "complianceNotes": "Simulated hygiene inspection passed. Commercial food-handling certificate verified.",
+      "totalMealsRescued": 2450,
+      "completedDispatches": 48,
+      "activeSince": "2025"
+    },
+    {
+      "id": "ORG-DON-002",
+      "name": "Grand Pearl Banquet & Hotel",
+      "type": "Hotel & Banquet Operations",
+      "category": "Donor",
+      "verificationStatus": "Verified",
+      "simulatedRegistrationId": "DEMO-FSSAI-REG-4412B",
+      "verifiedAt": "2026-09-01T12:00:00.000Z",
+      "hygieneRating": "4.9 / 5.0 (Simulated)",
+      "contactPerson": "Chef Vikram Sethi",
+      "phone": "+91 98112 88990",
+      "locality": "Indirapuram, Ghaziabad",
+      "complianceNotes": "Simulated commercial hotel license verified. Temperature-controlled prep facility.",
+      "totalMealsRescued": 3100,
+      "completedDispatches": 62,
+      "activeSince": "2024"
+    },
+    {
+      "id": "ORG-DON-003",
+      "name": "Crust & Crumb Bakery",
+      "type": "Artisan Bakery & Cafe",
+      "category": "Donor",
+      "verificationStatus": "Verified",
+      "simulatedRegistrationId": "DEMO-FSSAI-REG-3190C",
+      "verifiedAt": "2026-09-10T14:30:00.000Z",
+      "hygieneRating": "4.7 / 5.0 (Simulated)",
+      "contactPerson": "Ananya Deshmukh",
+      "phone": "+91 98712 34567",
+      "locality": "Connaught Place, New Delhi",
+      "complianceNotes": "Simulated daily bake health check verified.",
+      "totalMealsRescued": 1200,
+      "completedDispatches": 29,
+      "activeSince": "2025"
+    },
+    {
+      "id": "ORG-DON-004",
+      "name": "Saffron Heritage Banquets",
+      "type": "Banquets & Event Hospitality",
+      "category": "Donor",
+      "verificationStatus": "Verified",
+      "simulatedRegistrationId": "DEMO-FSSAI-REG-7721D",
+      "verifiedAt": "2026-10-24T08:28:47.250Z",
+      "hygieneRating": "Under Audit",
+      "contactPerson": "Virender Chawla",
+      "phone": "+91 98100 55443",
+      "locality": "Saket, South Delhi",
+      "complianceNotes": "Audited trade license and health safety checklist by Chief Verifier",
+      "totalMealsRescued": 0,
+      "completedDispatches": 0,
+      "activeSince": "2026",
+      "auditorEmail": "admin@rescueplate.org",
+      "updatedAt": "2026-10-24T08:28:47.250Z"
+    },
+    {
+      "id": "ORG-DON-005",
+      "name": "Midnight Express Quick Bites",
+      "type": "Takeaway Cloud Kitchen",
+      "category": "Donor",
+      "verificationStatus": "Rejected",
+      "simulatedRegistrationId": "DEMO-FSSAI-REG-0089E",
+      "verifiedAt": null,
+      "hygieneRating": "Failed (Simulated)",
+      "contactPerson": "Kunal Mehra",
+      "phone": "+91 98990 11223",
+      "locality": "Karol Bagh, New Delhi",
+      "complianceNotes": "Simulated rejection: Lacks certified insulated hot storage equipment for cooked buffet food.",
+      "totalMealsRescued": 0,
+      "completedDispatches": 0,
+      "activeSince": "2026"
+    },
+    {
+      "id": "ORG-NGO-001",
+      "name": "Asha Ek Kadam",
+      "type": "Community Shelter & Night Home",
+      "category": "NGO",
+      "verificationStatus": "Verified",
+      "simulatedRegistrationId": "DEMO-NGO-DARPAN-4401X",
+      "verifiedAt": "2026-07-20T11:00:00.000Z",
+      "hygieneRating": "5.0 / 5.0 (Simulated)",
+      "contactPerson": "Dr. Sunita Rao",
+      "phone": "+91 98200 11223",
+      "locality": "Mayur Vihar, East Delhi",
+      "complianceNotes": "NGO Darpan verified (simulated). Equipped with walk-in refrigeration units.",
+      "totalMealsRescued": 4100,
+      "completedDispatches": 80,
+      "activeSince": "2023"
+    },
+    {
+      "id": "ORG-NGO-002",
+      "name": "Pratham Food Relief",
+      "type": "Child Welfare & Daily Feeding",
+      "category": "NGO",
+      "verificationStatus": "Verified",
+      "simulatedRegistrationId": "DEMO-NGO-DARPAN-9912Y",
+      "verifiedAt": "2026-08-01T09:30:00.000Z",
+      "hygieneRating": "4.8 / 5.0 (Simulated)",
+      "contactPerson": "Amit Trivedi",
+      "phone": "+91 98199 44332",
+      "locality": "Laxmi Nagar, Delhi",
+      "complianceNotes": "Simulated childcare feeding license verified. Insulated delivery vans operational.",
+      "totalMealsRescued": 2800,
+      "completedDispatches": 55,
+      "activeSince": "2024"
+    },
+    {
+      "id": "ORG-NGO-003",
+      "name": "Hope Shelter Home",
+      "type": "Community Youth Home",
+      "category": "NGO",
+      "verificationStatus": "Pending Review",
+      "simulatedRegistrationId": "DEMO-NGO-DARPAN-1102Z",
+      "verifiedAt": null,
+      "hygieneRating": "Under Audit",
+      "contactPerson": "Sister Mary",
+      "phone": "+91 98111 22334",
+      "locality": "Rohini, North Delhi",
+      "complianceNotes": "Simulated registration audit pending. Cold chain inspection scheduled.",
+      "totalMealsRescued": 0,
+      "completedDispatches": 0,
+      "activeSince": "2026"
+    }
+  ]
+}
